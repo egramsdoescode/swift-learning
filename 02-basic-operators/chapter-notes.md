@@ -32,7 +32,6 @@ if x = y {
 ### Arithmetic operators
 
 Swift supports the following 4 standard operators for operating on number values:
-    
     -   Addition (+)
     -   Subtraction (-)
     -   Multiplication (*)
