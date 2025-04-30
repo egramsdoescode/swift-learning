@@ -38,5 +38,21 @@ Swift supports the following 4 standard operators for operating on number values
     -   Multiplication (*)
     -   Division (/)
 
+### Remainder operator
+The **remainder operator** (a % b) works out how many multiples of b will fit inside of a and returns the value that is left over.
 
+> **NOTE:** The remainder operator operator works the same on negative numbers, unlike other langauge's "modulo" operator that looks the same
+
+```swift
+9 % 4 // equals 1
+```
+Doing remainder with a negative first operand will result in a negative remainder
+```swift
+-9 % 4 // equals -1
+```
+**HOWEVER** doing the remainder with a negative value on the second operand will yield the same results as (a % b)
+```swift
+9 % 4 // equals 1
+9 % -4 // equals 1
+```
 
